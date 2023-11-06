@@ -1,0 +1,17 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    username: root
+    password: 030709
+    url: jdbc:mysql:///mshd
+
+  redis:
+    port: 6379
+    host: localhost
+
+logging:
+  level:
+    com.qinuan: debug
+
