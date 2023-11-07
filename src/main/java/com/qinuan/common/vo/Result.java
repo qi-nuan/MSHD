@@ -36,7 +36,7 @@ public class Result<T> {
     }
 
     public static <T> Result<T> fail(String message){
-        return new Result<>(20001, message, null);
+        return new Result<>(20003, message, null);
     }
 
     public static <T> Result<T> fail(T data){

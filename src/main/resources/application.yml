@@ -11,6 +11,15 @@ spring:
     port: 6379
     host: localhost
 
+ftp:
+  server: localhost
+  port: 21
+  username: ftpuser
+  password: ftppassword
+
+
+
+
 logging:
   level:
     com.qinuan: debug
