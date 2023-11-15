@@ -1,7 +1,7 @@
 package com.qinuan.sys.service;
 
-import com.qinuan.sys.entity.Users;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.qinuan.sys.entity.Users;
 
 import java.util.Map;
 
@@ -20,4 +20,12 @@ public interface IUsersService extends IService<Users> {
     Map<String, Object> getUserInfo(String token);
 
     void logout(String token);
+
+    boolean register(Users user);
+
+    void updateInfo(Users user);
+
+    void updateAvatar(String username, String filePath);
+
+    void delete(String username);
 }

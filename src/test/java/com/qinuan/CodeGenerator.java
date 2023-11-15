@@ -15,7 +15,7 @@ public class CodeGenerator {
         String password = "030709";
         String moduleName = "sys";
         String mapperLocation = "D:\\dev\\java\\code\\MSHD\\src\\main\\resources\\mapper\\" + moduleName;
-        String tables = "users,areas,cities,provinces,streets,villages";
+        String tables = "users,areas,cities,provinces,streets,villages,disasters";
         FastAutoGenerator.create(url, username, password)
                 .globalConfig(builder -> {
                     builder.author("qinuan") // 设置作者

@@ -11,11 +11,16 @@ spring:
     port: 6379
     host: localhost
 
+
 ftp:
-  server: localhost
-  port: 21
-  username: ftpuser
-  password: ftppassword
+  server:
+    address: 10.129.15.13
+    port: 21
+    baseDir: /ftp
+  user:
+    name: 3142469253@qq.com
+    password: 15932041h
+
 
 
 
